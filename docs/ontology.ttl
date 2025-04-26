@@ -1,0 +1,353 @@
+@prefix : <http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#> .
+
+<http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8> rdf:type owl:Ontology ;
+                                                                            owl:imports <http://www.w3.org/2002/07/owl> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hasDestination
+:hasDestination rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasDestination ;
+                              owl:someValuesFrom :Transport
+                            ] ;
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasDestination ;
+                             owl:someValuesFrom :City
+                           ] ;
+                rdfs:comment "\"Indicates the destination city of a transport service.\"@en" ;
+                rdfs:label "\"has destination\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hasOrigin
+:hasOrigin rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasOrigin ;
+                         owl:someValuesFrom :Transport
+                       ] ;
+           rdfs:range [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasOrigin ;
+                        owl:someValuesFrom :City
+                      ] ;
+           rdfs:comment "\"Indicates the starting city of a transport service.\"@en" ;
+           rdfs:label "\"has origin\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#locatedIn
+:locatedIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain [ rdf:type owl:Restriction ;
+                         owl:onProperty :locatedIn ;
+                         owl:someValuesFrom :TouristAttraction
+                       ] ;
+           rdfs:range [ rdf:type owl:Restriction ;
+                        owl:onProperty :locatedIn ;
+                        owl:someValuesFrom :City
+                      ] ;
+           rdfs:comment "\"Relates a place (attraction, restaurant) to the city it belongs to.\"@en" ;
+           rdfs:label "\"located in\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#takesPlaceIn
+:takesPlaceIn rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain [ rdf:type owl:Restriction ;
+                            owl:onProperty :takesPlaceIn ;
+                            owl:someValuesFrom :Event
+                          ] ;
+              rdfs:range [ rdf:type owl:Restriction ;
+                           owl:onProperty :takesPlaceIn ;
+                           owl:someValuesFrom :City
+                         ] ;
+              rdfs:comment "\"Relates an event to the city where it occurs.\"@en" ;
+              rdfs:label "\"takes place in\"@en" .
+
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#adress
+:adress rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :Hotel ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#endDate
+:endDate rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Event ;
+         rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#eventName
+:eventName rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Event ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hotelName
+:hotelName rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Hotel ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#phoneNumber
+:phoneNumber rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Hotel ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#startDate
+:startDate rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Event ;
+           rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#transportType
+:transportType rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Transport ;
+               rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Accommodation
+:Accommodation rdf:type owl:Class ;
+               rdfs:comment "\"A facility offering lodging options to tourists during their stay.\"@en" ;
+               rdfs:label "\"Accommodation\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#ApartmentRental
+:ApartmentRental rdf:type owl:Class ;
+                 rdfs:subClassOf :Accommodation .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Bar
+:Bar rdf:type owl:Class ;
+     rdfs:subClassOf :GastronomicPlace .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#BedAndBreakfast
+:BedAndBreakfast rdf:type owl:Class ;
+                 rdfs:subClassOf :Accommodation .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#BoatTransport
+:BoatTransport rdf:type owl:Class ;
+               rdfs:subClassOf :Transport .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#BusTransport
+:BusTransport rdf:type owl:Class ;
+              rdfs:subClassOf :Transport .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Cafe
+:Cafe rdf:type owl:Class ;
+      rdfs:subClassOf :GastronomicPlace ;
+      rdfs:comment "\"An informal place offering coffee, drinks, and light meals.\"@en" ;
+      rdfs:label "\"Café\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#CarRental
+:CarRental rdf:type owl:Class ;
+           rdfs:subClassOf :Transport .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#City
+:City rdf:type owl:Class ;
+      rdfs:comment "\"A city where tourism activities occur.\"@en" ;
+      rdfs:label "\"City\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Concert
+:Concert rdf:type owl:Class ;
+         rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#CulturalEvent
+:CulturalEvent rdf:type owl:Class ;
+               rdfs:subClassOf :Event ;
+               rdfs:comment "\"An event focusing on cultural expressions, traditions, or art.\"@en" ;
+               rdfs:label "\"Cultural Event\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Event
+:Event rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :takesPlaceIn ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :City
+                           ] ;
+       rdfs:comment "\"An occurrence happening at a specific time and place, important for tourism.\"@en" ;
+       rdfs:label "\"Event\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Festival
+:Festival rdf:type owl:Class ;
+          rdfs:subClassOf :Event .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#FlightTransport
+:FlightTransport rdf:type owl:Class ;
+                 rdfs:subClassOf :Transport ;
+                 rdfs:comment "\"A mode of transport involving air travel.\"@en" ;
+                 rdfs:label "\"Flight Transport\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#FoodTruck
+:FoodTruck rdf:type owl:Class ;
+           rdfs:subClassOf :GastronomicPlace .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#GastronomicPlace
+:GastronomicPlace rdf:type owl:Class ;
+                  rdfs:comment "\"A venue where food or drink services are provided, relevant for tourism experiences.\"@en" ;
+                  rdfs:label "\"Gastronomic Place\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#HistoricBuilding
+:HistoricBuilding rdf:type owl:Class ;
+                  rdfs:subClassOf :TouristAttraction .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Hostel
+:Hostel rdf:type owl:Class ;
+        rdfs:subClassOf :Accommodation ;
+        rdfs:comment "\"A low-cost accommodation option typically offering shared rooms.\"@en" ;
+        rdfs:label "\"Hostel\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Hotel
+:Hotel rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Restriction ;
+                             owl:onProperty :adress ;
+                             owl:someValuesFrom xsd:string
+                           ] ;
+       rdfs:subClassOf :Accommodation ;
+       rdfs:comment "\"An establishment providing accommodation services for tourists.\"@en" ;
+       rdfs:label "\"Hotel\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Museum
+:Museum rdf:type owl:Class ;
+        rdfs:subClassOf :TouristAttraction .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Park
+:Park rdf:type owl:Class ;
+      rdfs:subClassOf :TouristAttraction .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Pub
+:Pub rdf:type owl:Class ;
+     rdfs:subClassOf :GastronomicPlace .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#RecommendedTransport
+:RecommendedTransport rdf:type owl:Class ;
+                      rdfs:subClassOf :Transport ;
+                      rdfs:label "RecommendedTransport" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Resort
+:Resort rdf:type owl:Class ;
+        rdfs:subClassOf :Accommodation .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Restaurant
+:Restaurant rdf:type owl:Class ;
+            rdfs:subClassOf :GastronomicPlace ;
+            rdfs:comment "\"An establishment where meals are served to tourists and local visitors.\"@en" ;
+            rdfs:label "\"Restaurant\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#SportsEvent
+:SportsEvent rdf:type owl:Class ;
+             rdfs:subClassOf :Event ;
+             rdfs:comment "\"A competitive sporting event attracting tourists.\"@en" ;
+             rdfs:label "\"Sports Event\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#TouristAttraction
+:TouristAttraction rdf:type owl:Class ;
+                   rdfs:comment "\"A place of interest attracting visitors for its cultural, historical, or natural value.\"@en" ;
+                   rdfs:label "\"Tourist Attraction\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#TrainTransport
+:TrainTransport rdf:type owl:Class ;
+                rdfs:subClassOf :Transport ;
+                rdfs:comment "\"A mode of transport using trains for intercity or regional travel.\"@en" ;
+                rdfs:label "\"Train Transport\"@en" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Transport
+:Transport rdf:type owl:Class ;
+           rdfs:comment "\"Means of moving people between different locations in the context of tourism.\"@en" ;
+           rdfs:label "\"Transport\"@en" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/resource/Toledo,_Spain
+<http://dbpedia.org/resource/Toledo,_Spain> rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#cathedralToledo
+:cathedralToledo rdf:type owl:NamedIndividual ,
+                          :HistoricBuilding ;
+                 :locatedIn :toledo .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#concertMedieval
+:concertMedieval rdf:type owl:NamedIndividual ,
+                          :CulturalEvent ;
+                 :takesPlaceIn :toledo .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hotelImperial
+:hotelImperial rdf:type owl:NamedIndividual ,
+                        :Hotel ;
+               owl:sameAs <http://dbpedia.org/resource/Toledo,_Spain> .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#restaurantAbadia
+:restaurantAbadia rdf:type owl:NamedIndividual ,
+                           :Restaurant ;
+                  owl:sameAs <http://dbpedia.org/resource/Toledo,_Spain> .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#toledo
+:toledo rdf:type owl:NamedIndividual ,
+                 :City ;
+        owl:sameAs <http://dbpedia.org/resource/Toledo,_Spain> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
