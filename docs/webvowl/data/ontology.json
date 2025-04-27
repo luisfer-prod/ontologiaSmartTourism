@@ -1,0 +1,3220 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8" ],
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "15",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Museum",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Museum"
+    },
+    "id" : "0",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#OntologyProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OntologyProperty",
+      "undefined" : "OntologyProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of ontology properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#GastronomicPlace",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GastronomicPlace",
+      "undefined" : "\"Gastronomic Place\"@en"
+    },
+    "subClasses" : [ "5", "6", "7", "8", "9" ],
+    "comment" : {
+      "undefined" : "\"A venue where food or drink services are provided, relevant for tourism experiences.\"@en"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#RecommendedTransport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecommendedTransport",
+      "undefined" : "RecommendedTransport"
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Restaurant",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "\"Restaurant\"@en"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#restaurantAbadia",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+      "labels" : {
+        "IRI-based" : "restaurantAbadia"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "\"An establishment where meals are served to tourists and local visitors.\"@en"
+    },
+    "id" : "9",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#DeprecatedClass",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DeprecatedClass",
+      "undefined" : "DeprecatedClass"
+    },
+    "comment" : {
+      "undefined" : "The class of deprecated classes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ContainerMembershipProperty",
+      "undefined" : "ContainerMembershipProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of container membership properties, rdf:_1, rdf:_2, ..., all of which are sub-properties of 'member'."
+    },
+    "attributes" : [ "external" ],
+    "id" : "23",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#FlightTransport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightTransport",
+      "undefined" : "\"Flight Transport\"@en"
+    },
+    "comment" : {
+      "undefined" : "\"A mode of transport involving air travel.\"@en"
+    },
+    "id" : "25",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#DeprecatedProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DeprecatedProperty",
+      "undefined" : "DeprecatedProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of deprecated properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "List"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Park",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Park"
+    },
+    "id" : "35",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#SymmetricProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SymmetricProperty",
+      "undefined" : "SymmetricProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of symmetric properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "36",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Event",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "undefined" : "\"Event\"@en"
+    },
+    "subClasses" : [ "40", "41", "42", "43" ],
+    "comment" : {
+      "undefined" : "\"An occurrence happening at a specific time and place, important for tourism.\"@en"
+    },
+    "id" : "21"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Axiom",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Axiom",
+      "undefined" : "Axiom"
+    },
+    "comment" : {
+      "undefined" : "The class of annotated axioms for which the RDF serialization consists of an annotated subject, predicate and object."
+    },
+    "attributes" : [ "external" ],
+    "id" : "44",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#InverseFunctionalProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "InverseFunctionalProperty",
+      "undefined" : "InverseFunctionalProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of inverse-functional properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "52",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Concert",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concert"
+    },
+    "id" : "40",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Container",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Container",
+      "undefined" : "Container"
+    },
+    "comment" : {
+      "undefined" : "The class of RDF containers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Ontology",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ontology",
+      "undefined" : "Ontology"
+    },
+    "comment" : {
+      "undefined" : "The class of ontologies."
+    },
+    "attributes" : [ "external" ],
+    "id" : "61",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#FoodTruck",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodTruck"
+    },
+    "id" : "5",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#AsymmetricProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AsymmetricProperty",
+      "undefined" : "AsymmetricProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of asymmetric properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "62",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "IrreflexiveProperty",
+      "undefined" : "IrreflexiveProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of irreflexive properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "67",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#SportsEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportsEvent",
+      "undefined" : "\"Sports Event\"@en"
+    },
+    "comment" : {
+      "undefined" : "\"A competitive sporting event attracting tourists.\"@en"
+    },
+    "id" : "43",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#DataRange",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DataRange",
+      "undefined" : "DataRange"
+    },
+    "comment" : {
+      "undefined" : "The class of OWL data ranges, which are special kinds of datatypes. Note: The use of the IRI owl:DataRange has been deprecated as of OWL 2. The IRI rdfs:Datatype SHOULD be used instead."
+    },
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "73" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Class",
+      "undefined" : "Class"
+    },
+    "subClasses" : [ "73", "12", "39" ],
+    "comment" : {
+      "undefined" : "The class of classes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "13",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#CulturalEvent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CulturalEvent",
+      "undefined" : "\"Cultural Event\"@en"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#concertMedieval",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+      "labels" : {
+        "IRI-based" : "concertMedieval"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "\"An event focusing on cultural expressions, traditions, or art.\"@en"
+    },
+    "id" : "42",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Pub",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pub"
+    },
+    "id" : "6",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Festival",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Festival"
+    },
+    "id" : "41",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#NamedIndividual",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NamedIndividual",
+      "undefined" : "NamedIndividual"
+    },
+    "comment" : {
+      "undefined" : "The class of named individuals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#ReflexiveProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ReflexiveProperty",
+      "undefined" : "ReflexiveProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of reflexive properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "81",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Annotation",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Annotation",
+      "undefined" : "Annotation"
+    },
+    "comment" : {
+      "undefined" : "The class of annotated annotations for which the RDF serialization consists of an annotated subject, predicate and object."
+    },
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#BusTransport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusTransport"
+    },
+    "id" : "93",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#FunctionalProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "FunctionalProperty",
+      "undefined" : "FunctionalProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of functional properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "95",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#BedAndBreakfast",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BedAndBreakfast"
+    },
+    "id" : "98",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#AllDifferent",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AllDifferent",
+      "undefined" : "AllDifferent"
+    },
+    "comment" : {
+      "undefined" : "The class of collections of pairwise different individuals."
+    },
+    "attributes" : [ "external" ],
+    "id" : "49",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Restriction",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Restriction",
+      "undefined" : "Restriction"
+    },
+    "comment" : {
+      "undefined" : "The class of property restrictions."
+    },
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#TransitiveProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "TransitiveProperty",
+      "undefined" : "TransitiveProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of transitive properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "65",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "15",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#TrainTransport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TrainTransport",
+      "undefined" : "\"Train Transport\"@en"
+    },
+    "comment" : {
+      "undefined" : "\"A mode of transport using trains for intercity or regional travel.\"@en"
+    },
+    "id" : "118",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "120",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Hostel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hostel",
+      "undefined" : "\"Hostel\"@en"
+    },
+    "comment" : {
+      "undefined" : "\"A low-cost accommodation option typically offering shared rooms.\"@en"
+    },
+    "id" : "103",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#AnnotationProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AnnotationProperty",
+      "undefined" : "AnnotationProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of annotation properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "122",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "55",
+    "label" : {
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "86",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Accommodation",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Accommodation",
+      "undefined" : "\"Accommodation\"@en"
+    },
+    "subClasses" : [ "98", "90", "109", "107", "103" ],
+    "comment" : {
+      "undefined" : "\"A facility offering lodging options to tourists during their stay.\"@en"
+    },
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Transport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Transport",
+      "undefined" : "\"Transport\"@en"
+    },
+    "subClasses" : [ "25", "118", "93", "137", "138", "10" ],
+    "comment" : {
+      "undefined" : "\"Means of moving people between different locations in the context of tourism.\"@en"
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#HistoricBuilding",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HistoricBuilding"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#cathedralToledo",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+      "labels" : {
+        "IRI-based" : "cathedralToledo"
+      }
+    } ],
+    "id" : "150",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    },
+    "comment" : {
+      "undefined" : "The class of literal values, eg. textual strings and integers."
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#CarRental",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CarRental"
+    },
+    "id" : "138",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "subClasses" : [ "155", "122", "28", "2", "23", "37", "95" ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Resource",
+      "undefined" : "Resource"
+    },
+    "subClasses" : [ "87", "13", "49", "141", "44", "112", "127", "64", "60", "61" ],
+    "comment" : {
+      "undefined" : "The class resource, everything."
+    },
+    "attributes" : [ "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Class",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Class",
+      "undefined" : "Class"
+    },
+    "subClasses" : [ "27" ],
+    "comment" : {
+      "undefined" : "The class of OWL classes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#ApartmentRental",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ApartmentRental"
+    },
+    "id" : "107",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Datatype",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Datatype",
+      "undefined" : "Datatype"
+    },
+    "subClasses" : [ "74" ],
+    "comment" : {
+      "undefined" : "The class of RDF datatypes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DatatypeProperty",
+      "undefined" : "DatatypeProperty"
+    },
+    "comment" : {
+      "undefined" : "The class of data properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "155",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Resort",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resort"
+    },
+    "id" : "109",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#BoatTransport",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BoatTransport"
+    },
+    "id" : "137",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Hotel",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hotel",
+      "undefined" : "\"Hotel\"@en"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hotelImperial",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+      "labels" : {
+        "IRI-based" : "hotelImperial"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "\"An establishment providing accommodation services for tourists.\"@en"
+    },
+    "id" : "90",
+    "superClasses" : [ "99" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#City",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "\"City\"@en"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#toledo",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+      "labels" : {
+        "IRI-based" : "toledo"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "\"A city where tourism activities occur.\"@en"
+    },
+    "id" : "184"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "97",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "153",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ObjectProperty",
+      "undefined" : "ObjectProperty"
+    },
+    "subClasses" : [ "52", "116", "62", "36", "67", "81" ],
+    "comment" : {
+      "undefined" : "The class of object properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "58",
+    "label" : {
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#TouristAttraction",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TouristAttraction",
+      "undefined" : "\"Tourist Attraction\"@en"
+    },
+    "subClasses" : [ "0", "150", "35" ],
+    "comment" : {
+      "undefined" : "\"A place of interest attracting visitors for its cultural, historical, or natural value.\"@en"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "187",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Bar",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bar"
+    },
+    "id" : "8",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#AllDisjointClasses",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AllDisjointClasses",
+      "undefined" : "AllDisjointClasses"
+    },
+    "comment" : {
+      "undefined" : "The class of collections of pairwise disjoint classes."
+    },
+    "attributes" : [ "external" ],
+    "id" : "141",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#Cafe",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cafe",
+      "undefined" : "\"Café\"@en"
+    },
+    "comment" : {
+      "undefined" : "\"An informal place offering coffee, drinks, and light meals.\"@en"
+    },
+    "id" : "7",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#AllDisjointProperties",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AllDisjointProperties",
+      "undefined" : "AllDisjointProperties"
+    },
+    "comment" : {
+      "undefined" : "The class of collections of pairwise disjoint properties."
+    },
+    "attributes" : [ "external" ],
+    "id" : "127",
+    "superClasses" : [ "45" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#NegativePropertyAssertion",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "NegativePropertyAssertion",
+      "undefined" : "NegativePropertyAssertion"
+    },
+    "comment" : {
+      "undefined" : "The class of negative property assertions."
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "45" ]
+  } ],
+  "property" : [ {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "142",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "163",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "172",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "188",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topObjectProperty",
+      "undefined" : "topObjectProperty"
+    },
+    "domain" : "15",
+    "subproperty" : [ "16", "17", "18", "19" ],
+    "comment" : {
+      "undefined" : "The object property that relates every two individuals."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#startDate",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "startDate"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#equivalentClass",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "13",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "equivalentClass",
+      "undefined" : "equivalentClass"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The property that determines that two given classes are equivalent, and that is used to specify datatype definitions."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#someValuesFrom",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "13",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "someValuesFrom",
+      "undefined" : "someValuesFrom"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the class that an existential property restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#maxQualifiedCardinality",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "30",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "maxQualifiedCardinality",
+      "undefined" : "maxQualifiedCardinality"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the cardinality of a maximum qualified cardinality restriction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#unionOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "unionOf",
+      "undefined" : "unionOf"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The property that determines the collection of classes or data ranges that build a union."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#eventName",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "eventName"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#hasKey",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasKey",
+      "undefined" : "hasKey"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "The property that determines the collection of properties that jointly build a key."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#onProperties",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onProperties",
+      "undefined" : "onProperties"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the n-tuple of properties that a property restriction on an n-ary data range refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#oneOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "oneOf",
+      "undefined" : "oneOf"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The property that determines the collection of individuals or data values that build an enumeration."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#distinctMembers",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "distinctMembers",
+      "undefined" : "distinctMembers"
+    },
+    "domain" : "49",
+    "comment" : {
+      "undefined" : "The property that determines the collection of pairwise different individuals in a owl:AllDifferent axiom."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#minCardinality",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "51",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minCardinality",
+      "undefined" : "minCardinality"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the cardinality of a minimum cardinality restriction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#differentFrom",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "differentFrom",
+      "undefined" : "differentFrom"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The property that determines that two given individuals are different."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "55",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topDataProperty",
+      "undefined" : "topDataProperty"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The data property that relates every individual to every data value."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#domain",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "13",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "domain",
+      "undefined" : "domain"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "A domain of the subject property."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#bottomDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "58",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "bottomDataProperty",
+      "undefined" : "bottomDataProperty"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The data property that does not relate any individual to any data value."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#allValuesFrom",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "13",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "allValuesFrom",
+      "undefined" : "allValuesFrom"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the class that a universal property restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hasOrigin",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasOrigin",
+      "undefined" : "\"has origin\"@en"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "\"Indicates the starting city of a transport service.\"@en"
+    },
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#sourceIndividual",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "65",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sourceIndividual",
+      "undefined" : "sourceIndividual"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The property that determines the subject of a negative property assertion."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#assertionProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "assertionProperty",
+      "undefined" : "assertionProperty"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The property that determines the predicate of a negative property assertion."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#onProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onProperty",
+      "undefined" : "onProperty"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the property that a property restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#qualifiedCardinality",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "70",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "qualifiedCardinality",
+      "undefined" : "qualifiedCardinality"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the cardinality of an exact qualified cardinality restriction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#hasSelf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasSelf",
+      "undefined" : "hasSelf"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the property that a self restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#datatypeComplementOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "73",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "datatypeComplementOf",
+      "undefined" : "datatypeComplementOf"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "The property that determines that a given data range is the complement of another data range with respect to the data domain."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#locatedIn",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "locatedIn",
+      "undefined" : "\"located in\"@en"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "\"Relates a place (attraction, restaurant) to the city it belongs to.\"@en"
+    },
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#propertyDisjointWith",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "propertyDisjointWith",
+      "undefined" : "propertyDisjointWith"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "The property that determines that two given properties are disjoint."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#onDatatype",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "73",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onDatatype",
+      "undefined" : "onDatatype"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "The property that determines the datatype that a datatype restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subPropertyOf",
+      "undefined" : "subPropertyOf"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "The subject is a subproperty of a property."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#annotatedSource",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "annotatedSource",
+      "undefined" : "annotatedSource"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "The property that determines the subject of an annotated axiom or annotated annotation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#takesPlaceIn",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "takesPlaceIn",
+      "undefined" : "\"takes place in\"@en"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "\"Relates an event to the city where it occurs.\"@en"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#annotatedProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "annotatedProperty",
+      "undefined" : "annotatedProperty"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "The property that determines the predicate of an annotated axiom or annotated annotation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#transportType",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "transportType"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#withRestrictions",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "withRestrictions",
+      "undefined" : "withRestrictions"
+    },
+    "domain" : "73",
+    "comment" : {
+      "undefined" : "The property that determines the collection of facet-value pairs that define a datatype restriction."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#cardinality",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "86",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cardinality",
+      "undefined" : "cardinality"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the cardinality of an exact cardinality restriction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "85"
+  }, {
+    "range" : "21",
+    "domain" : "41",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hotelName",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "hotelName"
+    },
+    "domain" : "90",
+    "attributes" : [ "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#member",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "member",
+      "undefined" : "member"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "A member of the subject resource."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#bottomObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "bottomObjectProperty",
+      "undefined" : "bottomObjectProperty"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The object property that does not relate any two individuals."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#adress",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "97",
+    "label" : {
+      "IRI-based" : "adress"
+    },
+    "domain" : "90",
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "range" : "21",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#hasValue",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasValue",
+      "undefined" : "hasValue"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the individual that a has-value restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "101"
+  }, {
+    "range" : "99",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "99",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "99",
+    "domain" : "98",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "99",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "99",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "4",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#targetValue",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "112",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "targetValue",
+      "undefined" : "targetValue"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The property that determines the value of a negative data property assertion."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "4",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "4",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#inverseOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "37",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "inverseOf",
+      "undefined" : "inverseOf"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "The property that determines that two given properties are inverse."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "117"
+  }, {
+    "range" : "4",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#intersectionOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "intersectionOf",
+      "undefined" : "intersectionOf"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The property that determines the collection of classes or data ranges that build an intersection."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "121"
+  }, {
+    "range" : "45",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#onClass",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "39",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onClass",
+      "undefined" : "onClass"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the class that a qualified object cardinality restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "45",
+    "domain" : "127",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "45",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#sameAs",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "15",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sameAs",
+      "undefined" : "sameAs"
+    },
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "The property that determines that two given individuals are equal."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#annotatedTarget",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "45",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "annotatedTarget",
+      "undefined" : "annotatedTarget"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "The property that determines the object of an annotated axiom or annotated annotation."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#complementOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "39",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "complementOf",
+      "undefined" : "complementOf"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "The property that determines that a given class is the complement of another class."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#propertyChainAxiom",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "propertyChainAxiom",
+      "undefined" : "propertyChainAxiom"
+    },
+    "domain" : "37",
+    "comment" : {
+      "undefined" : "The property that determines the n-tuple of properties that build a sub property chain of a given property."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#phoneNumber",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "phoneNumber"
+    },
+    "domain" : "90",
+    "attributes" : [ "datatype" ],
+    "id" : "133"
+  }, {
+    "range" : "45",
+    "domain" : "13",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "45",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#onDataRange",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "73",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "onDataRange",
+      "undefined" : "onDataRange"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the data range that a qualified data cardinality restriction refers to."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "45",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "45",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "range" : "3",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "143"
+  }, {
+    "range" : "3",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "3",
+    "domain" : "95",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "range" : "3",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "146"
+  }, {
+    "range" : "3",
+    "domain" : "28",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "13",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subClassOf",
+      "undefined" : "subClassOf"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The subject is a subclass of a class."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "148"
+  }, {
+    "range" : "3",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#range",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "range" : "13",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2000/01/rdf-schema#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "range",
+      "undefined" : "range"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "A range of the subject property."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#endDate",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "153",
+    "label" : {
+      "IRI-based" : "endDate"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "152"
+  }, {
+    "range" : "3",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "154"
+  }, {
+    "range" : "11",
+    "domain" : "137",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "11",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "157"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "11",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "159"
+  }, {
+    "range" : "21",
+    "domain" : "43",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "21",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "11",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "162"
+  }, {
+    "range" : "11",
+    "domain" : "25",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "163"
+  }, {
+    "range" : "13",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "164"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#disjointUnionOf",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "disjointUnionOf",
+      "undefined" : "disjointUnionOf"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "The property that determines that a given class is equivalent to the disjoint union of a collection of other classes."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "166"
+  }, {
+    "range" : "1",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "167"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "168"
+  }, {
+    "range" : "13",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "169"
+  }, {
+    "range" : "1",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "170"
+  }, {
+    "range" : "37",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "171"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#targetIndividual",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "65",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "targetIndividual",
+      "undefined" : "targetIndividual"
+    },
+    "domain" : "64",
+    "comment" : {
+      "undefined" : "The property that determines the object of a negative object property assertion."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "172"
+  }, {
+    "range" : "37",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "173"
+  }, {
+    "range" : "37",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "174"
+  }, {
+    "range" : "37",
+    "domain" : "67",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "37",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
+  }, {
+    "range" : "73",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "37",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "45",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "45",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#disjointWith",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "39",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "disjointWith",
+      "undefined" : "disjointWith"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "The property that determines that two given classes are disjoint."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "39",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "45",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#maxCardinality",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "123",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "maxCardinality",
+      "undefined" : "maxCardinality"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the cardinality of a maximum cardinality restriction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#adress",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "adress"
+    },
+    "domain" : "90",
+    "attributes" : [ "datatype", "someValues" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#minQualifiedCardinality",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "120",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "minQualifiedCardinality",
+      "undefined" : "minQualifiedCardinality"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "The property that determines the cardinality of a minimum qualified cardinality restriction."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#equivalentProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "3",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "equivalentProperty",
+      "undefined" : "equivalentProperty"
+    },
+    "domain" : "3",
+    "comment" : {
+      "undefined" : "The property that determines that two given properties are equivalent."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#members",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "32",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/2002/07/owl#",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "members",
+      "undefined" : "members"
+    },
+    "domain" : "45",
+    "comment" : {
+      "undefined" : "The property that determines the collection of members in either a owl:AllDifferent, owl:AllDisjointClasses or owl:AllDisjointProperties axiom."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8#hasDestination",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2025/3/untitled-ontology-8",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "hasDestination",
+      "undefined" : "\"has destination\"@en"
+    },
+    "superproperty" : [ "14" ],
+    "domain" : "15",
+    "comment" : {
+      "undefined" : "\"Indicates the destination city of a transport service.\"@en"
+    },
+    "attributes" : [ "object" ],
+    "id" : "18"
+  } ]
+}
